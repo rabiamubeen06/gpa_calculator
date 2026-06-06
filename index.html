@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="Heading">
+            GPA CALCULATOR
+        </h1>
+        <p>Calculate your grades and cumulative gpa throughout the semesters</p>
+
+    </header>
+    <div class="cgpa">
+        <div class="cgpa_circle">
+            <div class="inner_ccircle">
+                <div class="label">CGPA:</div>
+                <div class="value">0.00</div>
+            </div>
+        </div>
+    </div>
+    <div class="maincard">
+        <div class="card">
+            <div class="cardheader">
+                <h2>Semester 1</h2>
+                <span class="gpa">GPA:0.00</span>
+            </div>
+            <div class="cardbody">
+                <table class="Table">
+                    <thead class="table_header">
+                        <tr>
+                            <th>COURSE NAME</th>
+                            <th>CREDIT HOURS</th>
+                            <th>GRADE</th>
+                            <th style="text-align: center">GRADE PT.</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tablebody">
+                        <tr>
+                            <td><input type="text" placeholder="e.g Calculus"></td>
+                            <td><input type="number" class="credit" placeholder="3" min="0" step="1"></td>
+                            <td><select class="Grades">
+                            <option value="Grade" >Grade</option>
+                            <option value="4.0">A</option>
+                                <option value="3.7">A-</option>
+                                <option value="3.3">B+</option>
+                                <option value="3.0">B</option>
+                                <option value="2.7">B-</option>
+                                <option value="2.3">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.0">D</option>
+                                <option value="0">F</option>
+                        </select></td>
+                            <td class="points" style="text-align: center">-</td>
+                            <td><button class="btn-delete" title="Remove row">x</button></td>
+
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="e.g DSA"></td>
+                            <td><input type="number" class="credit" placeholder="3" min="0" step="1"></td>
+                            <td><select class="Grades">
+                            <option value="Grade">Grade</option>
+                            <option value="4.0">A</option>
+                                <option value="3.7">A-</option>
+                                <option value="3.3">B+</option>
+                                <option value="3.0">B</option>
+                                <option value="2.7">B-</option>
+                                <option value="2.3">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.0">D</option>
+                                <option value="0">F</option>
+                        </select></td>
+                            <td class="points" style="text-align: center">-</td>
+                            <td><button class="btn-delete" title="Remove row">x</button></td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+                <div class="Addsubject">
+                    <button class="ADD">+ ADD COURSE</button>
+                </div>
+                <div class="calculate">
+                    <button class="cal">Calculate GPA</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="cardheader">
+                <h2>Semester 2</h2>
+                <span class="gpa">GPA:0.00</span>
+            </div>
+            <div class="cardbody">
+                <table class="Table">
+                    <thead class="table_header">
+                        <tr>
+                            <th>COURSE NAME</th>
+                            <th>CREDIT HOURS</th>
+                            <th>GRADE</th>
+                            <th>GRADE PT.</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="tablebody">
+                        <tr>
+                            <td><input type="text" placeholder="e.g Calculus"></td>
+                            <td><input type="number" class="credit" placeholder="3" min="0" step="1"></td>
+                            <td><select class="Grades">
+                            <option value="Grade">Grade</option>
+                            <option value="4.0">A</option>
+                                <option value="3.7">A-</option>
+                                <option value="3.3">B+</option>
+                                <option value="3.0">B</option>
+                                <option value="2.7">B-</option>
+                                <option value="2.3">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.0">D</option>
+                                <option value="0">F</option>
+                        </select></td>
+                            <td class="points" style="text-align: center">-</td>
+                            <td><button class="btn-delete" title="Remove row">x</button></td>
+
+                        </tr>
+                        <tr>
+                            <td><input type="text" placeholder="e.g DSA"></td>
+                            <td><input type="number" class="credit" placeholder="3" min="0" step="1"></td>
+                            <td><select class="Grades">
+                            <option value="Grade">Grade</option>
+                            <option value="4.0">A</option>
+                                <option value="3.7">A-</option>
+                                <option value="3.3">B+</option>
+                                <option value="3.0">B</option>
+                                <option value="2.7">B-</option>
+                                <option value="2.3">C+</option>
+                                <option value="2.0">C</option>
+                                <option value="1.0">D</option>
+                                <option value="0">F</option>
+                        </select></td>
+                            <td class="points" style="text-align: center">-</td>
+                            <td><button class="btn-delete" title="Remove row">x</button></td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+                <div class="Addsubject">
+                    <button class="ADD">+ ADD COURSE</button>
+                </div>
+                <div class="calculate">
+                    <button class="cal">Calculate GPA</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="addsem">
+        <button class="addsemes">+ ADD SEMESTER</button>
+    </div>
+
+
+</body>
+
+</html>
