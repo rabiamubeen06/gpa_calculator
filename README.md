@@ -23,8 +23,8 @@ A clean, interactive **GPA & CGPA calculator** built with vanilla HTML, CSS, and
 No build tools or installations required.
 
 ```bash
-git clone https://github.com/your-username/gpa-calculator.git
-cd gpa-calculator
+git clone https://github.com/rabiamubeen06/gpa_calculator.git
+cd gpa_calculator
 ```
 
 Then open `index.html` in your browser — that's it.
@@ -34,7 +34,7 @@ Then open `index.html` in your browser — that's it.
 ## 🗂️ Project Structure
 
 ```
-gpa-calculator/
+gpa_calculator/
 ├── index.html   # Markup and semester structure
 ├── style.css    # Teal-themed responsive styles
 └── script.js    # GPA/CGPA logic and DOM interactions
